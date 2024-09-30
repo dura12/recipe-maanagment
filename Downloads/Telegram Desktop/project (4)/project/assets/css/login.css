@@ -1,0 +1,74 @@
+.login-page {
+    height: 85vh;
+    display: flex;
+}
+.side-image {
+    background-image: url(../img/lunch.webp);
+    width: 50%;
+    height: 85vh;
+    background-size:cover;
+    /* border-radius: 0 1rem 1rem 0; */
+}
+.login {
+    /* background-color: black; */
+    background-color: #f3ebe6;
+    width: 50%;
+    height: 85vh;
+    text-align: center;
+}
+.login-center {
+    /* margin: 10%; */
+    padding: 15% 20%;
+    box-shadow: 1 solid black;
+}
+.login-center h1 {
+    font-weight: 400;
+    padding: 2rem;
+    opacity: .7;
+}
+.login-center input {
+    outline: none;
+    margin-bottom: 1.5rem;
+    padding: 0.7rem 1rem;
+    width: 20rem;
+    /* border: .05px ridge black; */
+    border: none;
+    box-shadow: 0 0 1rem -0.6rem;
+    border-radius: 1rem;
+    font-weight: 300;
+    
+}
+.login-center .login-button {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: .5rem 3rem;
+    background-color: #ff8c97;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: white;
+    /* font: inherit; */
+}
+.login-center .login-button:hover {
+    background-color: white;
+    color: black;
+    transition: background 0.5s;
+}
+.login-center .login-button:active {
+    background-color: #ff8c97;
+    color: white;
+} 
+.login-center p {
+    font-size: .7rem;
+    font-weight: 300;
+    opacity: .7;
+}
+.login-center .signup {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
+.login-center .signup:hover {
+    color: #ff8c97;
+}

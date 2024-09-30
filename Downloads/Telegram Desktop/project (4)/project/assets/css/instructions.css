@@ -1,0 +1,117 @@
+.instraction-page {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5rem; */
+    width: 100%;
+    height: 85vh;
+    gap: 5rem;
+    padding-inline: 4.5rem;
+    background-color: #f3ebe6;
+    padding-top: 3rem;
+}
+
+.img-container {
+    width: 40%;
+}
+
+.fixed-img {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/dessert.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.instraction {
+    width: 60%;
+    overflow-y: scroll;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    height: 75vh;
+    /* margin-bottom: 3rem; */
+}
+
+.centered {
+
+    text-align: center;
+}
+
+.img-container h1 {
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    font-weight: 500;
+    opacity: .8;
+}
+
+
+
+.category-duration {
+    /* text-align: center; */
+    /* width: 70%; */
+    display: flex;
+    justify-content: space-around;
+    /* padding-right: .5rem; */
+    /* gap: 2rem; */
+    padding: .5rem 0;
+    margin: 2rem 0 0 0;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.category-duration hr {
+    height: 1.5rem;
+}
+
+.category-duration h2 {
+    font-weight: 400;
+    color: #de4857;
+}
+
+.category-duration p {
+    /* font-size: .8rem; */
+    opacity: 0.8;
+}
+
+.instraction .no-flex-h2 {
+    padding: 1.5rem 0;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.instraction h1 {
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+/* //custom checkbox */
+.ingredient-checkbox-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items:first baseline;
+    width: 60ch;
+    gap: 1rem;
+    line-height: 1.5rem;
+}
+/* 
+.ingredient-checkbox-container label {
+    cursor: pointer;
+    display: flex;
+}
+
+.ingredient-checkbox-container input[type='checkbox'] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.ingredient-checkbox-container label::before {
+    content: "";
+    width: 90px;
+    height: 15px;
+    border: .05rem solid black;
+    border-radius: 50%;
+    margin-right: .5rem;
+} */

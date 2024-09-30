@@ -1,0 +1,233 @@
+main {
+    background-color: #f3ebe6;
+    padding: 0% 5% 0% 5%;
+}
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    align-items: center;
+}
+
+.landing-texts {
+    width:40%;
+}
+.landing-texts h1 {
+    font-size: 4rem;
+}
+.landing-texts .recipe {
+    color: #de4857;
+}
+.landing-texts p {
+    padding: 3% 10% 0% 0%;
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+.landing-texts .login-sign {
+    text-align: center;
+    padding-top: 7% ;
+}
+.login-sign a.login {
+    margin-left: -7rem;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    text-decoration: none;
+    background-color: #fd5e6e;
+    color: white;
+    border-radius: 1rem;
+}
+.login-sign a.login:hover {
+    background-color: white;
+    color: black;
+    transition: background 0.5s;
+}
+
+p.sign {
+    margin-left: -5rem;
+    padding-top: 1.5rem;
+    font-size: 0.7rem;   
+}
+p.sign a {
+text-decoration: none;
+color: black;
+}
+p.sign a:hover , a:active {
+    color: #c33c4a;
+}
+
+.landing-images img {
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+}
+.landing-images {
+    margin-right: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    width: 50%;
+    /* align-items: center;
+    gap: 2rem; */
+}
+.landing-images .one {
+    width: 400px;
+    height: 250px;
+    border-radius: 2rem;
+    grid-column: span 2;
+} 
+.landing-images .two {
+    width: 250px;
+    height: 420px;
+    border-radius: 1.5rem;
+    grid-row: span 2;
+}
+.landing-images .three {
+    width: 200px;
+    height: 150px;
+    border-radius: 1.5rem;
+}
+.landing-images .four {
+    width: 200px;
+    height: 150px;
+    border-radius: 1.5rem ;
+}
+/* categories section */
+
+.categories {
+    /* height: 90vh; */
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+.categories h2 {
+    padding: 0 0 1rem 0;
+}
+.categories img {
+    width: 260px;
+    height: 300px;
+    display: block;
+    transition: transform 0.5s;
+    border-radius: 2rem;
+}
+.categories label {
+    display: block;
+    margin-top: 1.2rem;
+    opacity: 0.7;
+    /* padding-left: 2rem; */
+    text-align: center;
+}
+.categories .categorie-wrap a {
+    text-decoration: none;
+    color: black;
+}
+.categorie-item {
+    border-radius: 2rem;
+}
+
+.categories img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 2rem;
+}
+.categorie-container  {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    flex: none;
+    width: 900px;
+    overflow-x:scroll;
+    gap: 2rem;
+    padding: 2rem;
+    scrollbar-width: none;
+}
+.categorie-container::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.categorie-wrap {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.categorie-wrap i {
+    color: #00000088;
+    font-size: 3rem;
+    padding: 1rem;
+    transition: background 0.5s;
+    border-radius: 7rem;
+}
+.categorie-wrap i:hover {
+    background-color: #f9aab2;
+    border-radius: 7rem;
+    cursor: pointer;
+}
+
+/* recent recipes section */
+.card-container {
+
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    flex: none;
+    padding-bottom: 3rem;
+}
+
+.categories h2, .recent h2.center, .testimonials h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    opacity: .8;
+}
+.testimonials {
+    margin-top: 2rem;
+    /* height: 100vh; */
+    padding-bottom: 2rem;
+}
+
+/* testimonials section */
+
+.test-card {
+    width : 350px;
+    /* background-color: rgb(229, 229, 229); */
+    border-radius: 2rem;
+    margin-top: 3rem;
+    padding: 20px;
+}
+.test-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.quote-icon {
+    text-align: center;
+}
+.test-card i {
+    color: hsl(354, 87%, 82%);
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+.test-card p {
+    text-align: justify;
+    text-indent: 1rem;
+    font-size: .8rem;
+    opacity: 0.8;
+    padding-bottom: 1rem;
+}
+.test-customer {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.test-customer h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.test-card-container {
+    display: flex;
+    justify-content: space-between;
+}

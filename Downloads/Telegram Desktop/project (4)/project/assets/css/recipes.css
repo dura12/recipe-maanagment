@@ -1,0 +1,57 @@
+.explore-background {
+    width: 100%;
+    height: 65vh;
+    background-image: url(../img/explore.jpg);
+    background-position: center bottom;
+    background-size:100%;
+}
+.explore-background h1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.recipes-list {
+    background-color:  #f3ebe6;
+    padding: 3rem 3rem 3rem 4rem;
+    /* height: 100vh; */
+}
+.recipes-header a {
+    display: block;
+}
+.recipes-header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+}
+
+.recipes-header a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+/* .recipes-header a:hover {
+    color: #d24a57;
+    opacity: 0.8;
+} */
+.recipes-header .category-active {
+    /* background-color:  #f3ebe6; */
+    border: 0.2px solid black;
+    opacity: 1;
+    color: #ff0019 ;
+    border-radius: 1rem;
+    padding: .2rem 1rem;
+} 
+.recipe-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+}

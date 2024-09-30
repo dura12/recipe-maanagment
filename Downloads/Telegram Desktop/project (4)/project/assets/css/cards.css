@@ -1,0 +1,54 @@
+
+.card {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    /* background-color: black; */
+    width: 250px;
+    box-shadow: 0 0 1rem -0.5rem;
+    /* outline: 1px solid black; */
+    background-color: rgb(229, 229, 229);
+    border-radius: 1rem;
+    transition: transform 0.5s;
+}
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card img {
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem 1rem 0 0;
+}
+.card .text {
+    padding-left: .4rem;
+}
+
+.text h5 {
+    color:#fd5e6e;
+    padding: .4rem 0 .5rem 0;
+}
+.text h2 {
+    font-weight: 400;
+    padding-bottom: 1rem;
+    opacity: 0.7;
+}
+.text i {
+    color:hsl(354, 92%, 72%);
+    font-size: 1.1rem;
+}
+.text span {
+    font-size: .8rem;
+    opacity: .8;
+}
+.categories h2, .recent h2.center, .testimonials h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    opacity: .8;
+}
+.cards-link {
+    text-decoration: none;
+}
+.cards-link h2 ,span {
+    color: black;
+}

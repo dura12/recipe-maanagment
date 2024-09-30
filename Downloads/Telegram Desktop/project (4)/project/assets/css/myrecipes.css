@@ -1,0 +1,29 @@
+.user-recipe .card a {
+    text-decoration: none;
+    display: flex;
+    /* gap: 10rem; */
+    justify-content: space-between;
+    margin: 2rem 4rem 0 4rem;
+    margin-left: 4rem;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #f3ebe6;
+    border-radius: 1.5rem;
+    align-items: center;
+}
+.user-recipe .name, .date {
+    color: black;
+    font-size: 1.2rem;
+    opacity: .8;
+}
+.user-recipe .status {
+    color: white;
+    background-color:rgb(240, 219, 62);
+    padding: .5rem;
+    border-radius: .7rem;
+}
+.user-recipe .card .menu {
+    background-color: white;
+} 
+.user-recipe .card .menu p {
+    font-size: 1rem;
+} 
